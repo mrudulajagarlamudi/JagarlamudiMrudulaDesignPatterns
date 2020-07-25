@@ -1,0 +1,15 @@
+package Structual;
+
+
+	public class Triangle extends Shape{
+
+		public Triangle(color c) {
+			super(c);
+		}
+
+		@Override
+		public void applyColor() {
+			System.out.print("Triangle filled with color ");
+			color.applyColor();
+		}
+}
